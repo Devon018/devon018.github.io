@@ -1,3 +1,1 @@
-# pianfan.github.io
-
-My Personal Blog via GitHub
+# This is the source of Devon's blog
