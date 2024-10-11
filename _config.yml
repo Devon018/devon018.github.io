@@ -1,8 +1,7 @@
 name: "Devon's Blog"
 description: "Devon的个人博客"
 
-avatar: https://github.com/Devon018/devon018.github.io/images/cat.webp
-favicon: https://pianfan.github.io/images/favicon.ico
+avatar: https://cdn.jsdelivr.net/gh/Devon018/devon018.github.io/images/cat.webp
 
 navigation:
   - name: 首页
