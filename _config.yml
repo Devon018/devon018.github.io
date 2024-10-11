@@ -1,7 +1,7 @@
 name: "Devon's Blog"
 description: "Devon的个人博客"
 
-avatar: https://cdn.jsdelivr.net/gh/Devon018/devon018.github.io/images/cat.webp
+avatar: https://devon018.github.io/images/cat.png
 
 navigation:
   - name: 首页
