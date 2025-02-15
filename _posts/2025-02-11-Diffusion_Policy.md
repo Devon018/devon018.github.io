@@ -242,7 +242,7 @@ $$
 \mathcal{L} = MSE(\varepsilon^k,\varepsilon_\theta(x^0 + \varepsilon^k,k)) \tag{3-2}
 $$
 
-在实际应用中，作者将$A_t$和$O_t$建模为条件概率分布，即$p(A_t \mid O_t)$，于是，上式可以修改为：
+在实际应用中，作者将$A_t$和$O_t$建模为条件概率分布，即$p(A_t \mid **O_t**)$，于是，上式可以修改为：
 
 $$
 A^{k-1}_t = \alpha(A^k_t - \gamma\varepsilon_\theta(A^k_t,O_t,k)+\mathcal{N}(0,\sigma^2I)) \tag{3-3}
