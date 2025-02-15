@@ -6,7 +6,7 @@ tags: [Paper]
 comments: true
 author: Devon
 ---
-
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true } }); </script> <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 
 # Diffusion Policy 论文精读：从Diffusion到Policy
