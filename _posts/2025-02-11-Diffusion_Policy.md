@@ -1,11 +1,14 @@
 ---
 layout: post
-title: "Diffusion Policy"
+title: "Diffusion Policy 论文精读：从Diffusion到Policy"
 date:   2025-02-11
 tags: [Paper]
 comments: true
 author: Devon
 ---
+
+###### 本文是对《Diffusion Policy: Visuomotor Policy Learning via Action Diffusion》的学习记录与详解
+
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true } }); </script> <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 
