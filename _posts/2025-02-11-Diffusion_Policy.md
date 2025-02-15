@@ -14,8 +14,6 @@ author: Devon
 
 [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](https://arxiv.org/abs/2303.04137)
 
-全文目录：
-[TOC]
 
 ## Diffusion Model
 
@@ -185,8 +183,8 @@ $$
 \begin{aligned}
 g &= \nabla_{\tau} p(\mathcal{O}_{1:T}=1|\tau)|_{\tau = \mu} \\
 &= \Sigma_{t=0}^{T} \nabla_{s_t,a_t} r(s_t, a_t)|_{(s_t, a_t) = \mu_t} \\
-&= \nabla \mathcal{J}(\mu) \tag{2-2}
-\end{aligned}
+&= \nabla \mathcal{J}(\mu) 
+\end{aligned} \tag{2-2}
 $$
 
 反向过程可以近似如下：
@@ -244,8 +242,7 @@ $$
 \mathcal{L} = MSE(\varepsilon^k,\varepsilon_\theta(x^0 + \varepsilon^k,k)) \tag{3-2}
 $$
 
-
-在实际应用中，作者将$A_t$和$O_t$建模为条件概率分布，即$p(A_t|O_t)$，于是，上式可以修改为：
+在实际应用中，作者将$A_t$和$O_t$建模为条件概率分布，即$p(A_t \mid O_t)$，于是，上式可以修改为：
 
 $$
 A^{k-1}_t = \alpha(A^k_t - \gamma\varepsilon_\theta(A^k_t,O_t,k)+\mathcal{N}(0,\sigma^2I)) \tag{3-3}
