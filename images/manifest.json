@@ -1,0 +1,19 @@
+{
+	"name": "Home page for Dihong Huang",
+	"short_name": "Dihong Huang",
+	"description": "Dihong Huang's research portfolio in dexterous manipulation, scalable robot learning, and contact-rich control.",
+	"start_url": "/",
+	"lang": "en-US",
+	"icons": [
+		{
+			"src": "/images/favicon-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/images/favicon-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
